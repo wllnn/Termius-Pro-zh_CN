@@ -11,7 +11,7 @@ jobs:
     with:
       platform: windows
       version_command: |
-        termius_version=$9.20.0
+        termius_version=$'9.20.0'
       install_command: |
         choco install termius -y --no-progress --version=$TERMIUS_VERSION --ignore-checksums
       source_path: $HOME/AppData/Local/Programs/Termius/resources/app.asar
